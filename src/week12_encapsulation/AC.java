@@ -4,6 +4,10 @@ public class AC {
     private  int temp;
     private String power;
 
+    public void turnOff(){
+        power = "Off";
+    }
+
     public int getTemp() {
         return temp;
     }

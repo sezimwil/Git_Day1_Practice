@@ -4,5 +4,8 @@ public class TestAC {
     public static void main(String[] args) {
         AC ac = new AC(72, "On");
         System.out.println("ac = " + ac);
+
+        AC ac2 = new AC(65, "On");
+        System.out.println(ac2.getTemp());
     }
 }
